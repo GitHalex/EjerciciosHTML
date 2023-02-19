@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formularios</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <a href="index.html">Ir a inicio</a>
+   <h1>Formularios</h1>
+   <form action="" class="bloque">
+      <label for="name">Nombre</label>
+      <input type="text" id="name">
+      <br>
+      <label for="email">Email</label>
+      <input type="email">
+      <br>
+      <label for="Email">Mensaje</label>
+      <textarea name="mensajes"></textarea>
+   </form>
+   <br>
+   <form action="">
+      <fieldset>
+         <legend>Altavoces Tienda</legend>
+         <label for="modelo">Modelo</label>
+         <select>
+            <option value="1">R4</option>
+            <option value="2">R5</option>
+            <option value="3">SR1</option>
+         </select>
+         <br>
+         <label for="">Potencia Maxima entre 50 - 100</label>
+         <input type="number" name="" id="" min="50" max="100">
+         <br>
+         <label for="si-no">¿Bluetooth?</label>
+         <input type="radio" name="si" id="si-no">Si
+         <input type="radio" name="si" id="si-no">No
+
+         <br>
+         <label for="color">color
+            <input type="color">
+         </label>
+         <br>
+         <input type="submit" value="enviar">
+      </fieldset>
+   </form>
+   <form action="">
+      <fieldset>
+         <!-- Titulo de Fieldset -->
+         <legend>Reserva de entrada</legend>
+
+         <label>
+            Nombre y apellidos
+            <input type="text" name="nombre">
+         </label>
+
+         <label>
+            Número de asientos
+            <input type="number" name="numero">
+         </label>
+
+         <button type="submit">Pagar</button>
+      </fieldset>
+   </form>
+
+
+</body>
+
+</html>
