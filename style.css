@@ -13,10 +13,14 @@ video {
   max-width: 100%;
   height: auto;
 }
-ul {
+/* ul {
   list-style: none;
-}
+} */
 
 .bloque {
   display: block;
+}
+
+.eliminar {
+  list-style: none;
 }
